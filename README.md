@@ -69,7 +69,8 @@ Args []: 73.68 ± 0.04 -> 72.22 ± 0.02;
 
 
 ### Our result: 
-'''
+
+```
 Original accuracy
 All runs:
 Highest Train: 74.7574 ± 0.1020
@@ -88,7 +89,7 @@ Valid: 0.7365012248733179, Test: 0.7231858115754172
 Valid: 0.7370717138158999, Test: 0.7236384585313663
 Valid acc -> Test acc
 Args []: 73.72 ± 0.04 -> 72.38 ± 0.05
-'''
+```
 
 ### MLP + C&S (175656 params, 71.44% base accuracy)
 ```
