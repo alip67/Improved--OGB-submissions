@@ -37,7 +37,7 @@ Args []: 73.00 ± 0.01 -> 71.26 ± 0.01
 
 
 ###Our result:
-
+```
 C:\Python37\python.exe C:/Users/ALIP/Desktop/CorrectAndSmooth-master/CorrectAndSmooth-master/run_experiments.py --dataset arxiv --method plain
 Original accuracy
 All runs:
@@ -57,7 +57,7 @@ Valid: 0.7299238229470788, Test: 0.7126103326955127
 Valid: 0.7299238229470788, Test: 0.7126514824187807
 Valid acc -> Test acc
 Args []: 72.99 ± 0.01 -> 71.26 ± 0.01
-
+```
 ### Linear + C&S (15400 params, 70.11% base accuracy)
 ```
 python gen_models.py --dataset arxiv --model linear --use_embeddings --epochs 1000 
