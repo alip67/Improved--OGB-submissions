@@ -67,6 +67,29 @@ Valid acc -> Test acc
 Args []: 73.68 ± 0.04 -> 72.22 ± 0.02;
 ```
 
+
+### Our result: 
+'''
+Original accuracy
+All runs:
+Highest Train: 74.7574 ± 0.1020
+Highest Valid: 71.3886 ± 0.0397
+  Final Train: 74.7574 ± 0.1020
+   Final Test: 70.4422 ± 0.0220
+Valid: 0.7370381556428068, Test: 0.723494434499928
+Valid: 0.737776435450854, Test: 0.7244614529967286
+Valid: 0.7370717138158999, Test: 0.7242762792420221
+Valid: 0.7370381556428068, Test: 0.7238236322860728
+Valid: 0.7380113426625055, Test: 0.7248318005061416
+Valid: 0.7373066210275513, Test: 0.723515009361562
+Valid: 0.7373066210275513, Test: 0.7237001831162685
+Valid: 0.7369710392966207, Test: 0.7234532847766598
+Valid: 0.7365012248733179, Test: 0.7231858115754172
+Valid: 0.7370717138158999, Test: 0.7236384585313663
+Valid acc -> Test acc
+Args []: 73.72 ± 0.04 -> 72.38 ± 0.05
+'''
+
 ### MLP + C&S (175656 params, 71.44% base accuracy)
 ```
 python gen_models.py --dataset arxiv --model mlp --use_embeddings
